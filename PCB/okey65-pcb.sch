@@ -14,51 +14,16 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L MCU_Microchip_ATmega:ATmega32U4-AU U1
-U 1 1 61B8DF0D
-P 2750 3200
-F 0 "U1" H 2750 1311 50  0000 C CNN
-F 1 "ATmega32U4-AU" H 2750 1220 50  0000 C CNN
-F 2 "Package_QFP:TQFP-44_10x10mm_P0.8mm" H 2750 3200 50  0001 C CIN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 2750 3200 50  0001 C CNN
-	1    2750 3200
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+5V #PWR02
 U 1 1 61B927E9
-P 2650 1300
-F 0 "#PWR02" H 2650 1150 50  0001 C CNN
-F 1 "+5V" H 2665 1473 50  0000 C CNN
-F 2 "" H 2650 1300 50  0001 C CNN
-F 3 "" H 2650 1300 50  0001 C CNN
-	1    2650 1300
+P 2650 1100
+F 0 "#PWR02" H 2650 950 50  0001 C CNN
+F 1 "+5V" H 2665 1273 50  0000 C CNN
+F 2 "" H 2650 1100 50  0001 C CNN
+F 3 "" H 2650 1100 50  0001 C CNN
+	1    2650 1100
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2650 1300 2650 1400
-Wire Wire Line
-	2650 1400 2750 1400
-Connection ~ 2650 1400
-Wire Wire Line
-	2750 1400 2850 1400
-Connection ~ 2750 1400
-$Comp
-L power:GND #PWR010
-U 1 1 61B94874
-P 2250 5000
-F 0 "#PWR010" H 2250 4750 50  0001 C CNN
-F 1 "GND" H 2255 4827 50  0000 C CNN
-F 2 "" H 2250 5000 50  0001 C CNN
-F 3 "" H 2250 5000 50  0001 C CNN
-	1    2250 5000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2250 5000 2650 5000
-Wire Wire Line
-	2650 5000 2750 5000
-Connection ~ 2650 5000
 $Comp
 L Device:R_Small R4
 U 1 1 61B96CC2
@@ -83,8 +48,6 @@ F 3 "" H 3850 3800 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3350 3800 3500 3800
-Wire Wire Line
-	3700 3800 3850 3800
 $Comp
 L Device:R_Small R2
 U 1 1 61B9D04B
@@ -248,8 +211,6 @@ F 3 "" H 1950 2500 50  0001 C CNN
 	1    1950 2500
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1950 2500 2150 2500
 $Comp
 L Device:Crystal_GND24_Small Y1
 U 1 1 61BF958F
@@ -395,43 +356,41 @@ $EndComp
 $Comp
 L Device:Polyfuse_Small F1
 U 1 1 61C2DC78
-P 3750 5700
-F 0 "F1" V 3545 5700 50  0000 C CNN
-F 1 "500mA" V 3636 5700 50  0000 C CNN
-F 2 "Fuse:Fuse_1206_3216Metric" H 3800 5500 50  0001 L CNN
-F 3 "~" H 3750 5700 50  0001 C CNN
-	1    3750 5700
+P 4100 5700
+F 0 "F1" V 3895 5700 50  0000 C CNN
+F 1 "500mA" V 3986 5700 50  0000 C CNN
+F 2 "Fuse:Fuse_1206_3216Metric" H 4150 5500 50  0001 L CNN
+F 3 "~" H 4100 5700 50  0001 C CNN
+	1    4100 5700
 	0    1    1    0   
 $EndComp
 $Comp
 L power:+5V #PWR013
 U 1 1 61C30545
-P 4050 5700
-F 0 "#PWR013" H 4050 5550 50  0001 C CNN
-F 1 "+5V" H 4065 5873 50  0000 C CNN
-F 2 "" H 4050 5700 50  0001 C CNN
-F 3 "" H 4050 5700 50  0001 C CNN
-	1    4050 5700
+P 4400 5700
+F 0 "#PWR013" H 4400 5550 50  0001 C CNN
+F 1 "+5V" H 4415 5873 50  0000 C CNN
+F 2 "" H 4400 5700 50  0001 C CNN
+F 3 "" H 4400 5700 50  0001 C CNN
+	1    4400 5700
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:VCC #PWR012
 U 1 1 61C311D5
-P 3450 5700
-F 0 "#PWR012" H 3450 5550 50  0001 C CNN
-F 1 "VCC" H 3465 5873 50  0000 C CNN
-F 2 "" H 3450 5700 50  0001 C CNN
-F 3 "" H 3450 5700 50  0001 C CNN
-	1    3450 5700
+P 3800 5700
+F 0 "#PWR012" H 3800 5550 50  0001 C CNN
+F 1 "VCC" H 3815 5873 50  0000 C CNN
+F 2 "" H 3800 5700 50  0001 C CNN
+F 3 "" H 3800 5700 50  0001 C CNN
+	1    3800 5700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3250 5700 3450 5700
+	3800 5700 4000 5700
+Connection ~ 3800 5700
 Wire Wire Line
-	3450 5700 3650 5700
-Connection ~ 3450 5700
-Wire Wire Line
-	3850 5700 4050 5700
+	4200 5700 4400 5700
 Text GLabel 3450 6400 2    50   Input ~ 0
 D+
 Text GLabel 3450 6300 2    50   Input ~ 0
@@ -1530,8 +1489,6 @@ F 3 "~" V 4500 3400 50  0001 C CNN
 	1    4500 3400
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	4500 3300 4600 3300
 Text GLabel 4300 3500 0    50   Input ~ 0
 ROW2
 Wire Wire Line
@@ -2566,4 +2523,174 @@ Wire Wire Line
 	7850 6000 8250 6000
 Wire Wire Line
 	8550 6000 8950 6000
+Text GLabel 3450 4200 2    50   Input ~ 0
+LED0
+Wire Wire Line
+	3450 3900 3350 3900
+Text GLabel 3450 2000 2    50   Input ~ 0
+COL1
+Wire Wire Line
+	3450 2000 3350 2000
+Text GLabel 3450 4400 2    50   Input ~ 0
+ROW4
+Wire Wire Line
+	3450 4400 3350 4400
+Text GLabel 3450 3900 2    50   Input ~ 0
+ROW2
+Text GLabel 3450 2400 2    50   Input ~ 0
+COL2
+Wire Wire Line
+	3450 2400 3350 2400
+Text GLabel 3450 3400 2    50   Input ~ 0
+COL3
+Wire Wire Line
+	3450 3400 3350 3400
+Text GLabel 3450 3200 2    50   Input ~ 0
+ROW1
+Wire Wire Line
+	3450 3200 3350 3200
+Wire Wire Line
+	3450 4100 3350 4100
+Text GLabel 3450 4100 2    50   Input ~ 0
+COL0
+Text GLabel 3450 3100 2    50   Input ~ 0
+ROW0
+Wire Wire Line
+	3450 3100 3350 3100
+Wire Wire Line
+	3450 4200 3350 4200
+Text GLabel 3450 2700 2    50   Input ~ 0
+LED1
+Wire Wire Line
+	3450 2700 3350 2700
+Text GLabel 3450 4300 2    50   Input ~ 0
+ROW3
+Wire Wire Line
+	3450 4300 3350 4300
+Text GLabel 3450 3300 2    50   Input ~ 0
+COL4
+Wire Wire Line
+	3450 3300 3350 3300
+Text GLabel 3450 3500 2    50   Input ~ 0
+COL5
+Text GLabel 3450 3600 2    50   Input ~ 0
+COL6
+Text GLabel 3450 2100 2    50   Input ~ 0
+COL7
+Text GLabel 3450 2200 2    50   Input ~ 0
+COL8
+Text GLabel 3450 2300 2    50   Input ~ 0
+COL9
+Text GLabel 3450 2600 2    50   Input ~ 0
+COL10
+Wire Wire Line
+	3350 2100 3450 2100
+Wire Wire Line
+	3350 2200 3450 2200
+Wire Wire Line
+	3350 2300 3450 2300
+Wire Wire Line
+	3350 2600 3450 2600
+Wire Wire Line
+	3350 3500 3450 3500
+Wire Wire Line
+	3350 3600 3450 3600
+Text GLabel 3450 4500 2    50   Input ~ 0
+COL12
+Wire Wire Line
+	3350 4500 3450 4500
+Text GLabel 3450 4600 2    50   Input ~ 0
+COL11
+Wire Wire Line
+	3350 4600 3450 4600
+NoConn ~ 3350 1700
+NoConn ~ 3350 1800
+NoConn ~ 3350 1900
+NoConn ~ 3350 2900
+NoConn ~ 3350 3000
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 621C59A9
+P 3500 5700
+F 0 "#FLG0101" H 3500 5775 50  0001 C CNN
+F 1 "PWR_FLAG" H 3500 5873 50  0000 C CNN
+F 2 "" H 3500 5700 50  0001 C CNN
+F 3 "~" H 3500 5700 50  0001 C CNN
+	1    3500 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 621DEA4F
+P 2650 1250
+F 0 "#FLG0102" H 2650 1325 50  0001 C CNN
+F 1 "PWR_FLAG" V 2650 1378 50  0000 L CNN
+F 2 "" H 2650 1250 50  0001 C CNN
+F 3 "~" H 2650 1250 50  0001 C CNN
+	1    2650 1250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1950 2500 2150 2500
+$Comp
+L power:GND #PWR010
+U 1 1 61B94874
+P 2250 5100
+F 0 "#PWR010" H 2250 4850 50  0001 C CNN
+F 1 "GND" H 2255 4927 50  0000 C CNN
+F 2 "" H 2250 5100 50  0001 C CNN
+F 3 "" H 2250 5100 50  0001 C CNN
+	1    2250 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 5000 2250 5100
+$Comp
+L power:PWR_FLAG #FLG0103
+U 1 1 6226213E
+P 2250 5000
+F 0 "#FLG0103" H 2250 5075 50  0001 C CNN
+F 1 "PWR_FLAG" V 2250 5127 50  0000 L CNN
+F 2 "" H 2250 5000 50  0001 C CNN
+F 3 "~" H 2250 5000 50  0001 C CNN
+	1    2250 5000
+	0    -1   -1   0   
+$EndComp
+Connection ~ 2250 5000
+Connection ~ 2650 5000
+Connection ~ 2750 1400
+Wire Wire Line
+	2750 1400 2850 1400
+Wire Wire Line
+	2650 1400 2750 1400
+Wire Wire Line
+	2650 5000 2250 5000
+Wire Wire Line
+	2650 5000 2750 5000
+Wire Wire Line
+	3700 3800 3850 3800
+Wire Wire Line
+	4500 3300 4600 3300
+$Comp
+L MCU_Microchip_ATmega:ATmega32U4-AU U1
+U 1 1 61B8DF0D
+P 2750 3200
+F 0 "U1" H 2750 1311 50  0000 C CNN
+F 1 "ATmega32U4-AU" H 2750 1220 50  0000 C CNN
+F 2 "Package_QFP:TQFP-44_10x10mm_P0.8mm" H 2750 3200 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 2750 3200 50  0001 C CNN
+	1    2750 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 5700 3800 5700
+Wire Wire Line
+	3250 5700 3500 5700
+Connection ~ 3500 5700
+Wire Wire Line
+	2650 1100 2650 1250
+Wire Wire Line
+	2650 1250 2650 1400
+Connection ~ 2650 1250
+Connection ~ 2650 1400
 $EndSCHEMATC
