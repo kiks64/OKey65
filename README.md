@@ -12,9 +12,9 @@ Known issue: Indicator LEDs for lock keys do not work.
  ![IMG_0993](https://user-images.githubusercontent.com/34974048/152076793-286f5459-27c4-40fb-8b4b-6ebb72f2b363.JPG) ![IMG_1011](https://user-images.githubusercontent.com/34974048/152076687-8d62c177-0f4c-42b1-a964-1e0c097b0568.JPG)  
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/34974048/152076793-286f5459-27c4-40fb-8b4b-6ebb72f2b363.JPG" width="200">
-&nbsp; &nbsp; &nbsp; &nbsp;
-  <img src="https://user-images.githubusercontent.com/34974048/152076687-8d62c177-0f4c-42b1-a964-1e0c097b0568.JPG" width="200">
+  <img src="https://user-images.githubusercontent.com/34974048/152076793-286f5459-27c4-40fb-8b4b-6ebb72f2b363.JPG" width="300">
+&nbsp;
+  <img src="https://user-images.githubusercontent.com/34974048/152076687-8d62c177-0f4c-42b1-a964-1e0c097b0568.JPG" width="300">
 </p>
 
 
