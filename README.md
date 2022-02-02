@@ -4,6 +4,7 @@
 <p align="center">
   <img src="https://user-images.githubusercontent.com/34974048/152215421-228ba257-86bc-46fb-9515-bf6a944e03f6.JPG">
 </p>  
+
 The goal of this project is to design a more advanced version of my hand-wired keyboard that I have been using for several years.  
 The keyboard has a well-balanced size that allows it to be quite compact while still having all the important keys available on the main layer.  
 Its layout is quite atypical but very convenient for typing text with accented Latin characters.  
