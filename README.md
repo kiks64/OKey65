@@ -12,8 +12,9 @@ The design is minimalist, not including backlight, but modern, the pcb has no sc
 However, not being an electronics professional and this project being my first one, the switches are not hot-swappable since integrating this feature makes the design too complex for my skill level.  
 Known issue: Indicator LEDs for lock keys do not work.  
 <p align="center">
+  <br />
   <img src="https://user-images.githubusercontent.com/34974048/152217235-c33f7b34-944d-48e4-8e13-534d60f08ccd.JPG" width="400">
-&nbsp; &nbsp;
+  &nbsp; &nbsp;
   <img src="https://user-images.githubusercontent.com/34974048/152217259-e7d16908-1c68-4fd5-8275-d127f7e3f9ce.JPG" width="400">
 </p>  
 The keyboard consists of a top plate, a pcb and a bottom plate, all in fr4 and designed on Kicad, as well as a 3d printed frame in resin 8000 (sla) designed on Fusion 360. All these parts were ordered from JLCPCB.  
