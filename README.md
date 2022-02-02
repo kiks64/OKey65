@@ -1,7 +1,9 @@
 # Okey65 ortholinear keyboard
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
 ### _65 keys ortholinear keyboard using a qwerty based symetric layout_
-![IMG_1014](https://user-images.githubusercontent.com/34974048/152204716-40920faf-1fc2-4fa7-b2b8-619a067b8bec.JPG)  
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/34974048/152215421-228ba257-86bc-46fb-9515-bf6a944e03f6.JPG">
+</p>  
 The goal of this project is to design a more advanced version of my hand-wired keyboard that I have been using for several years.  
 The keyboard has a well-balanced size that allows it to be quite compact while still having all the important keys available on the main layer.  
 Its layout is quite atypical but very convenient for typing text with accented Latin characters.  
@@ -9,15 +11,11 @@ It is based on an Atmega32u4 chip and the QMK firmware is compiled and editable 
 The design is minimalist, not including backlight, but modern, the pcb has no screws and is fully dampened by EVA foam.  
 However, not being an electronics professional and this project being my first one, the switches are not hot-swappable since integrating this feature makes the design too complex for my skill level.  
 Known issue: Indicator LEDs for lock keys do not work.  
- ![IMG_0993](https://user-images.githubusercontent.com/34974048/152076793-286f5459-27c4-40fb-8b4b-6ebb72f2b363.JPG) ![IMG_1011](https://user-images.githubusercontent.com/34974048/152076687-8d62c177-0f4c-42b1-a964-1e0c097b0568.JPG)  
-
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/34974048/152076793-286f5459-27c4-40fb-8b4b-6ebb72f2b363.JPG" width="400">
+  <img src="https://user-images.githubusercontent.com/34974048/152217235-c33f7b34-944d-48e4-8e13-534d60f08ccd.JPG" width="400">
 &nbsp;
-  <img src="https://user-images.githubusercontent.com/34974048/152076687-8d62c177-0f4c-42b1-a964-1e0c097b0568.JPG" width="400">
-</p>
-
-
+  <img src="https://user-images.githubusercontent.com/34974048/152217259-e7d16908-1c68-4fd5-8275-d127f7e3f9ce.JPG" width="400">
+</p>  
 The keyboard consists of a top plate, a pcb and a bottom plate, all in fr4 and designed on Kicad, as well as a 3d printed frame in resin 8000 (sla) designed on Fusion 360. All these parts were ordered from JLCPCB.  
 I chose these materials for their reasonable cost, their lightness as well as to obtain a soft typing feeling. My goal not being to get a high-end keyboard but simply the most pleasant to use, I excluded noble materials such as bronze or aluminum. 
 
