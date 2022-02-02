@@ -15,6 +15,18 @@ I chose these materials for their reasonable cost, their lightness as well as to
 All the electronic components come from Digikey except the Atmel chip which comes from Aliexpress since it is out of stock at all specialist retailers. The BOM list therefore consists of component references available from Digikey.  
 Regarding the switches, I chose Gateron Pro Milky Yellow for their price, their softness and because they are stock lubed, which saves me laborious work.  
 
+Some aditionnal stuff you will need :  
+An USB type C cable.  
+Spray paint and plastic primer : I used Montana Colors mtn94 paint, nice quality, easy to use.  
+M2 brass standoffs 10mm : https://aliexpress.com/item/4000314663724.html (fit perfectly).  
+M2 flat head screws 10mm : https://aliexpress.com/item/4001072025844.html  
+Foam tape 1mm x 12mm + 3mm x 8mm : https://aliexpress.com/item/33012825553.html  
+Foam sheets  2mm : I used this item https://aliexpress.com/item/1005002856054113.html but it is harder than I expected, maybe not the best option.  
+A Double-sided adhesive tape.  
+A syringe of solder paste (preferably T5 grade because the usb type c port is tricky to solder) as well as solder wire.  
+A hot air rework station, tweezers and magnifier.  
+A lot of patience :)  
+
 Finally, I reused the keycaps from my previous hand-wired keyboard because they come from Signature Plastics and are very expensive.  
 It is difficult to find a keyset that is perfectly compatible with this keyboard because the caps have to be non sculpted (dsa or xda) and ortholinear sets lack keycaps since they are designed for the Plank and Preonic which are smaller than my keyboard.  
 Apart from the Signature Plastics solution, I found two sets that fit perfectly :   
