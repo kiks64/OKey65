@@ -21,6 +21,9 @@ _**Known issue:** Indicator LEDs for lock keys do not work._
   <img src="https://user-images.githubusercontent.com/34974048/152217235-c33f7b34-944d-48e4-8e13-534d60f08ccd.JPG" width="400">
   &nbsp; &nbsp;
   <img src="https://user-images.githubusercontent.com/34974048/152217259-e7d16908-1c68-4fd5-8275-d127f7e3f9ce.JPG" width="400">
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/34974048/152398069-6d9c8c0b-fd6d-49bf-bc3d-c9e100d08379.png">
 </p>  
 
 ### List of required parts
