@@ -106,4 +106,3 @@ If you plan to use accents, set your computer's input method to US International
 
 Using a wrist rest greatly improves comfort and ergonomics.
 I made one with some EVA foam, double sided tape and cloth, the dimensions are 300x80x15mm and that's fine, a little longer would be perfect, like 320-350mm.
-
