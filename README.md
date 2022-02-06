@@ -13,9 +13,7 @@ It is based on an Atmega32u4 chip and the QMK firmware is compiled and editable 
 The design is minimalist, not including backlight, but modern : the pcb has no screws and is fully dampened by EVA foam.  
 However, not being an electronics professional and this project being my first one, the switches are not hot-swappable since integrating this feature makes the design too complex for my skill level.  
 
-Before continuing, I would like to thank ai03 and Masterzen for their tutorials which made this project possible, as well as all the contributors of the QMK firmware.  
-
-_**Known issue:** Indicator LEDs for lock keys do not work._
+Before continuing, I would like to thank ai03 and Masterzen for their tutorials which made this project possible, as well as all the contributors of the QMK firmware.
 <p align="center">
   <br />
   <img src="https://user-images.githubusercontent.com/34974048/152217235-c33f7b34-944d-48e4-8e13-534d60f08ccd.JPG" width="400">
