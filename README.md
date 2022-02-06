@@ -9,7 +9,7 @@ The goal of this project is to design an enhanced version of my hand-wired keybo
 The keyboard has a well-balanced size that allows it to be quite compact while still having all the important keys available on the main layer.
 Its layout is quite atypical but very convenient for typing text with accented Latin characters.  
 
-It is based on an Atmega32u4 chip and the QMK firmware is compiled and editable at https://kbfirmware.com. The switch footprints are 5-pins MX type.
+It is based on an Atmega32u4 chip and runs QMK. The switch footprints are 5-pins MX type.
 The design is minimalist, not including backlight, but modern : the pcb has no screws and is fully dampened by EVA foam.  
 However, not being an electronics professional and this project being my first one, the switches are not hot-swappable since integrating this feature makes the design too complex for my skill level.  
 
