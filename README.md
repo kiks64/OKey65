@@ -62,7 +62,7 @@ Cut out the different foams using the top plate and bottom plate as templates :
 Between the top plate and the pcb I used 2 sheets of 2mm that I glued together before cutting them. With 4mm of compact foam for a space between plates of 3mm, soldering the switches was very difficult because I had to compress the foam at the same time. Instead, try to find a sheet of 3mm foam or less dense foam.  
 Same observation for the foam between the pcb and the bottom plate, 4mm if good but EVA foam is definitely too dense and it was difficult to close the case the first time.  
 A last sheet of 2mm foam glued under the bottom plate as a sole. Here, EVA is perfect and provides a good support for the keyboard and prevents the screw heads from touching the desk.  
-Finally, cut strips of 3mm wide and thick self-adhesive foam and stick them all around the flat top.
+Finally, cut strips of 3mm wide and thick self-adhesive foam and stick them all around the top plate.
 <p align="center">
   <br />
   <img src="https://user-images.githubusercontent.com/34974048/152251503-f2e97885-2179-4a90-9315-21c6159d13fe.JPG" width="400">
